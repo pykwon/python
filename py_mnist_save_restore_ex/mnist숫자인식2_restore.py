@@ -1,4 +1,4 @@
-#http://hero4earth.com/blog/projects/2018/01/16/MNIST_Project/
+#http://hero4earth.com/blog/projects/2018/01/16/MNIST_Project/  참조함
 import matplotlib.pyplot as plt
 import tensorflow as tf
 from PIL import Image
@@ -7,12 +7,13 @@ import sys
 from tensorflow.examples.tutorials.mnist import input_data
 
 mnist = input_data.read_data_sets('MNIST_data/', one_hot=True)
-#세션 열기
-sess = tf.InteractiveSession()
-#모델 불러오기(저장된 변수도 함께 불러오기)
-new_saver = tf.train.import_meta_graph('./mnist_cnn.ckpt.meta')
+
+sess = tf.InteractiveSession()  #세션 열기
+
+new_saver = tf.train.import_meta_graph('./mnist_cnn.ckpt.meta') #모델 불러오기(저장된 변수도 함께 불러오기)
 new_saver.restore(sess, './mnist_cnn.ckpt')
 
+#경로명은 mnist_cnn.ckpt.meta 파일에서 ctrl + f 키를 눌러 'model'로 검색하면 확인할 수 있다. dense도 마찬가지
 X = sess.graph.get_tensor_by_name("model0/Placeholder_1:0")
 logits = sess.graph.get_tensor_by_name("model0/dense_1/BiasAdd:0")
 training = sess.graph.get_tensor_by_name("model0/Placeholder:0")
@@ -27,8 +28,7 @@ image_b = image_b.reshape([1, 784])
 result = sess.run(logits, feed_dict={X:image_b, training:False})
 print("MNIST predicted Number : ", sess.run(tf.argmax(result, 1)))
 
-#이미지 파일 테스트
-#찍은 사진을 바로 넣어서 숫자를 인식해야 한다. 따라서, MNIST 이미지가 이닌 숫자를 적은 이미지를 불러와서 인식 시켜본다.
+#이미지 파일 테스트 - 찍은 사진을 바로 넣어서 숫자를 인식해야 한다. 따라서, MNIST 이미지가 이닌 숫자를 적은 이미지를 불러와서 인식 시켜본다.
 #한번에 확인하기
 result_show = []
 fig = plt.figure(figsize=(15,5))
