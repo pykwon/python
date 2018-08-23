@@ -2,21 +2,18 @@ import math, sys
 from konlpy.tag import Twitter
 
 class MyBayesianFilter:
-    """ 베이지안 필터 """
     def __init__(self):
-        self.words = set()      # 출현한 단어 기록
-        self.word_dict = {}     # 카테고리마다의 출현 횟수 기록
-        self.category_dict = {} # 카테고리 출현 횟수 기록
-        
-    # 형태소 분석하기 --- 
-    def split(self, text):
+        self.words = set()      # 단어 저장용
+        self.word_dict = {}     # 카테고리마다의 출현 횟수 저장
+        self.category_dict = {} # 카테고리 출현 횟수 저장
+   
+    def split(self, text):  # 형태소 분석하기
         results = []
         twitter = Twitter()
         # 단어의 기본형 사용
         malist = twitter.pos(text, norm=True, stem=True)
         for word in malist:
-            # 어미/조사/구두점 등은 대상에서 제외 
-            if not word[1] in ["Josa", "Eomi", "Punctuation"]:
+            if not word[1] in ["Josa", "Eomi", "Punctuation"]:    # 어미/조사/구둣점 등은 대상에서 제외 
                 results.append(word[0])
         return results
     
@@ -31,7 +28,7 @@ class MyBayesianFilter:
         self.words.add(word)
         
     def inc_category(self, category):
-        # 카테고리 계산하기
+        # 카테고리 계산
         if not category in self.category_dict:
             self.category_dict[category] = 0
         self.category_dict[category] += 1
@@ -44,14 +41,14 @@ class MyBayesianFilter:
             self.inc_word(word, category)
         self.inc_category(category)
     
-    # 단어 리스트에 점수 매기기--- 
+    # 단어 리스트에 점수 매기기
     def score(self, words, category):
         score = math.log(self.category_prob(category))
         for word in words:
             score += math.log(self.word_prob(word, category))
         return score
     
-    # 예측하기 --- 
+    # 예측
     def predict(self, text):
         best_category = None
         max_score = -sys.maxsize 
@@ -78,7 +75,7 @@ class MyBayesianFilter:
         category_v = self.category_dict[category]
         return category_v / sum_categories
         
-    # 카테고리 내부의 단어 출현 비율 계산 --- 
+    # 카테고리 내부의 단어 출현 비율 계산 
     def word_prob(self, word, category):
         n = self.get_word_count(word, category) + 1 
         d = sum(self.word_dict[category].values()) + len(self.words)
