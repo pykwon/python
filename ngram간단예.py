@@ -1,3 +1,5 @@
+# n-gram을 이용하면 문장의 유사도를 확인할 수 있다.
+
 def ngram(s, num):
     res = []
     slen = len(s) - num + 1
