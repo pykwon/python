@@ -57,13 +57,12 @@ def make_sentence(head):
         "_callback": "",
         "q": ret
     })
-    # 네이버 맞춤법 검사기를 사용합니다.
+    # 네이버의 맞춤법 검사기 api를 사용
     data = urllib.request.urlopen("https://m.search.naver.com/p/csearch/ocontent/spellchecker.nhn?" + params)
     data = data.read().decode("utf-8")[1:-2]
     data = json.loads(data)
     data = data["message"]["result"]["html"]
     data = soup = BeautifulSoup(data, "html.parser").getText()
-    # 리턴
     return data
 
 def word_choice(sel):
