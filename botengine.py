@@ -1,11 +1,12 @@
 import codecs
 from bs4 import BeautifulSoup
 import urllib.request
-from konlpy.tag import Twitter
+from konlpy.tag import Okt
 import os, re, json, random
+
 dict_file = "chatbot-data.json"
 dic = {}
-twitter = Twitter()
+twitter = Okt()
 
 # 딕셔너리에 단어 등록하기 --- 
 def register_dic(words):
@@ -37,7 +38,8 @@ def set_word3(dic, s3):
 def make_sentence(head):
     if not head in dic: return ""
     ret = []
-    if head != "@": ret.append(head)        
+    if head != "@": 
+        ret.append(head)        
     top = dic[head]
     w1 = word_choice(top)
     w2 = word_choice(top[w1])
@@ -49,14 +51,18 @@ def make_sentence(head):
         else:
             w3 = ""
         ret.append(w3)
-        if w3 == "." or w3 == "？ " or w3 == "": break
+        if w3 == "." or w3 == "？ " or w3 == "": 
+            break
         w1, w2 = w2, w3
+        
     ret = "".join(ret)
+    
     # 띄어쓰기
     params = urllib.parse.urlencode({
         "_callback": "",
         "q": ret
     })
+    
     # 네이버의 맞춤법 검사기 api를 사용
     data = urllib.request.urlopen("https://m.search.naver.com/p/csearch/ocontent/spellchecker.nhn?" + params)
     data = data.read().decode("utf-8")[1:-2]
@@ -78,9 +84,10 @@ def make_reply(text):
     # 사전에 단어가 있다면 그것을 기반으로 문장 만들기
     for word in words:
         face = word[0]
-        if face in dic: return make_sentence(face)
+        if face in dic: 
+            return make_sentence(face)
     return make_sentence("@")
 
 # 딕셔너리가 있다면 읽어 들이기
 if os.path.exists(dict_file):
-    dic = json.load(open(dict_file,"r"))
+    dic = json.load(open(dict_file, "r"))
