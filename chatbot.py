@@ -1,4 +1,3 @@
-#!C:\Anaconda3\python
 import cgi
 from botengine import make_reply
 
@@ -6,7 +5,7 @@ from botengine import make_reply
 form = cgi.FieldStorage()
 
 # 메인 처리 --- 
-def main():
+def go_main():
     m = form.getvalue("m", default="")
     if   m == "" : show_form()
     elif m == "say" : api_say()
@@ -58,4 +57,4 @@ def show_form():
     </script></body></html>
     """)
 
-main()
+go_main()
