@@ -1,0 +1,17 @@
+https://www.kaggle.com/uciml/pima-indians-diabetes-database
+
+미국 원주민 중 Pima 족은 원래는 당뇨병의 유병율이 적었는데, 서구식 식습관에 의해 급속도로 당뇨병에 많이 걸렸다. 
+그래서 이 사례가 당뇨병을 연구하는데 귀중한 데이터로 사용되고 있다.
+제공된 데이터 세트는 CSV file이고 9가지의 속성으로 구성되어 있다.
+
+diabetes.csv     768 x 9
+
+임신횟수(pregnancies)
+글루코스 내성(glucose)실험 후의 혈당수치
+확장기 혈압(bloodpressure)
+상완 삼두근 피부 두께 (skinthickness)
+혈액내 인슐린 수치 (insulin)
+BMI(비만도) 수치 (bmi)
+당뇨병 가족력(Diabetespedigreef)
+나이 (age)
+당뇨병 여부 (outcome) 0 or 1 : 1은 발병
