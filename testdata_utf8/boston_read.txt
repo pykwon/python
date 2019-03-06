@@ -1,0 +1,12 @@
+신경망을 훈련하는 데 사용할 boston Dataset는 미국의 보스톤 교외 지역에 대한 다음과 같은 기능 데이터를 포함하고 있다.
+CRIM     Crime rate per capita / 1 인당 범죄율
+ZN       Fraction of residential land zoned to permit 
+            25,000+ 평방 피트를 허용하도록 구역화 된 주거용 토지의 분수
+INDUS    Fraction of land that is non-retail business / 비 소매업 부문 토지의 비율
+NOX      Concentration of nitric oxides in parts per 10 million / 질소 산화물의 농도를 천만 배럴로
+RM       Average Rooms per dwelling / 주거 당 RM 평균 객실
+AGE      Fraction of owner-occupied residences built before 1940 / 1940 년 이전에 건축 된 주거지의 일부
+DIS      Distance to Boston-area employment centers / 보스턴 지역 고용 센터까지의 거리
+TAX      Property tax rate per $10,000 / 10,000 달러 당 세율
+PTRATIO  Student-teacher ratio / 교사 비율
+그리고 모델에서 예측할 수 있는 레이블은 수천 달러의 소유자가 거주하는 주택의 중간 값 인 MEDV 이다.
