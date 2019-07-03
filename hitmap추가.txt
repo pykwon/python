@@ -7,12 +7,10 @@ mask[np.triu_indices_from(mask)] = True
 vmax = np.abs(corr.values[~mask]).max()
 fig, ax = plt.subplots()     # Set up the matplotlib figure
 
-sns.heatmap(corr, mask=mask, vmin=-vmax, vmax=vmax,
-square=True, linecolor="lightgray", linewidths=1, ax=ax)
+sns.heatmap(corr, mask=mask, vmin=-vmax, vmax=vmax, square=True, linecolor="lightgray", linewidths=1, ax=ax)
 
 for i in range(len(corr)):
-    ax.text(i + 0.5, len(corr) - (i + 0.5), corr.columns[i],
-ha="center", va="center", rotation=45)
+    ax.text(i + 0.5, len(corr) - (i + 0.5), corr.columns[i], ha="center", va="center", rotation=45)
     for j in range(i + 1, len(corr)):
         s = "{:.3f}".format(corr.values[i, j])
         ax.text(j + 0.5, len(corr) - (i + 0.5), s, ha="center", va="center")
