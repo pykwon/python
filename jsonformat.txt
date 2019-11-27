@@ -1,0 +1,272 @@
+[
+  {
+    "id": 76811,
+    "node_id": "MDU6TGFiZWw3NjgxMQ==",
+    "url": "https://api.github.com/repos/pandas-dev/pandas/labels/Bug",
+    "name": "Bug",
+    "color": "e10c02",
+    "default": false,
+    "description": null
+  },
+  {
+    "id": 76812,
+    "node_id": "MDU6TGFiZWw3NjgxMg==",
+    "url": "https://api.github.com/repos/pandas-dev/pandas/labels/Enhancement",
+    "name": "Enhancement",
+    "color": "4E9A06",
+    "default": false,
+    "description": null
+  },
+  {
+    "id": 127681,
+    "node_id": "MDU6TGFiZWwxMjc2ODE=",
+    "url": "https://api.github.com/repos/pandas-dev/pandas/labels/Refactor",
+    "name": "Refactor",
+    "color": "FCE94F",
+    "default": false,
+    "description": null
+  },
+  {
+    "id": 129350,
+    "node_id": "MDU6TGFiZWwxMjkzNTA=",
+    "url": "https://api.github.com/repos/pandas-dev/pandas/labels/Build",
+    "name": "Build",
+    "color": "75507B",
+    "default": false,
+    "description": null
+  },
+  {
+    "id": 134699,
+    "node_id": "MDU6TGFiZWwxMzQ2OTk=",
+    "url": "https://api.github.com/repos/pandas-dev/pandas/labels/Docs",
+    "name": "Docs",
+    "color": "3465A4",
+    "default": false,
+    "description": null
+  },
+  {
+    "id": 211840,
+    "node_id": "MDU6TGFiZWwyMTE4NDA=",
+    "url": "https://api.github.com/repos/pandas-dev/pandas/labels/Timeseries",
+    "name": "Timeseries",
+    "color": "AFEEEE",
+    "default": false,
+    "description": null
+  },
+  {
+    "id": 233160,
+    "node_id": "MDU6TGFiZWwyMzMxNjA=",
+    "url": "https://api.github.com/repos/pandas-dev/pandas/labels/Groupby",
+    "name": "Groupby",
+    "color": "729FCF",
+    "default": false,
+    "description": null
+  },
+  {
+    "id": 2301354,
+    "node_id": "MDU6TGFiZWwyMzAxMzU0",
+    "url": "https://api.github.com/repos/pandas-dev/pandas/labels/Data%20IO",
+    "name": "Data IO",
+    "color": "06909A",
+    "default": false,
+    "description": null
+  },
+  {
+    "id": 2413328,
+    "node_id": "MDU6TGFiZWwyNDEzMzI4",
+    "url": "https://api.github.com/repos/pandas-dev/pandas/labels/Visualization",
+    "name": "Visualization",
+    "color": "8AE234",
+    "default": false,
+    "description": null
+  },
+  {
+    "id": 2822098,
+    "node_id": "MDU6TGFiZWwyODIyMDk4",
+    "url": "https://api.github.com/repos/pandas-dev/pandas/labels/Indexing",
+    "name": "Indexing",
+    "color": "0b02e1",
+    "default": false,
+    "description": "Related to indexing on series/frames, not to indexes themselves"
+  },
+  {
+    "id": 2822342,
+    "node_id": "MDU6TGFiZWwyODIyMzQy",
+    "url": "https://api.github.com/repos/pandas-dev/pandas/labels/Missing-data",
+    "name": "Missing-data",
+    "color": "d7e102",
+    "default": false,
+    "description": null
+  },
+  {
+    "id": 8935311,
+    "node_id": "MDU6TGFiZWw4OTM1MzEx",
+    "url": "https://api.github.com/repos/pandas-dev/pandas/labels/Performance",
+    "name": "Performance",
+    "color": "a10c02",
+    "default": false,
+    "description": null
+  },
+  {
+    "id": 13098779,
+    "node_id": "MDU6TGFiZWwxMzA5ODc3OQ==",
+    "url": "https://api.github.com/repos/pandas-dev/pandas/labels/Reshaping",
+    "name": "Reshaping",
+    "color": "02d7e1",
+    "default": false,
+    "description": null
+  },
+  {
+    "id": 31404521,
+    "node_id": "MDU6TGFiZWwzMTQwNDUyMQ==",
+    "url": "https://api.github.com/repos/pandas-dev/pandas/labels/Dtypes",
+    "name": "Dtypes",
+    "color": "e102d8",
+    "default": false,
+    "description": null
+  },
+  {
+    "id": 32933285,
+    "node_id": "MDU6TGFiZWwzMjkzMzI4NQ==",
+    "url": "https://api.github.com/repos/pandas-dev/pandas/labels/Admin",
+    "name": "Admin",
+    "color": "DDDDDD",
+    "default": false,
+    "description": null
+  },
+  {
+    "id": 35818298,
+    "node_id": "MDU6TGFiZWwzNTgxODI5OA==",
+    "url": "https://api.github.com/repos/pandas-dev/pandas/labels/API%20Design",
+    "name": "API Design",
+    "color": "AD7FA8",
+    "default": false,
+    "description": null
+  },
+  {
+    "id": 42670965,
+    "node_id": "MDU6TGFiZWw0MjY3MDk2NQ==",
+    "url": "https://api.github.com/repos/pandas-dev/pandas/labels/Error%20Reporting",
+    "name": "Error Reporting",
+    "color": "ffa0ff",
+    "default": false,
+    "description": null
+  },
+  {
+    "id": 47223669,
+    "node_id": "MDU6TGFiZWw0NzIyMzY2OQ==",
+    "url": "https://api.github.com/repos/pandas-dev/pandas/labels/Numeric",
+    "name": "Numeric",
+    "color": "006b75",
+    "default": false,
+    "description": "Arithmetic, Comparison, Logical, and Reduction operations"
+  },
+  {
+    "id": 47229171,
+    "node_id": "MDU6TGFiZWw0NzIyOTE3MQ==",
+    "url": "https://api.github.com/repos/pandas-dev/pandas/labels/IO%20CSV",
+    "name": "IO CSV",
+    "color": "5319e7",
+    "default": false,
+    "description": null
+  },
+  {
+    "id": 47232590,
+    "node_id": "MDU6TGFiZWw0NzIzMjU5MA==",
+    "url": "https://api.github.com/repos/pandas-dev/pandas/labels/IO%20SQL",
+    "name": "IO SQL",
+    "color": "5319e7",
+    "default": false,
+    "description": null
+  },
+  {
+    "id": 48070600,
+    "node_id": "MDU6TGFiZWw0ODA3MDYwMA==",
+    "url": "https://api.github.com/repos/pandas-dev/pandas/labels/CI",
+    "name": "CI",
+    "color": "a2bca7",
+    "default": false,
+    "description": null
+  },
+  {
+    "id": 49094459,
+    "node_id": "MDU6TGFiZWw0OTA5NDQ1OQ==",
+    "url": "https://api.github.com/repos/pandas-dev/pandas/labels/Internals",
+    "name": "Internals",
+    "color": "fbca04",
+    "default": false,
+    "description": null
+  },
+  {
+    "id": 49597148,
+    "node_id": "MDU6TGFiZWw0OTU5NzE0OA==",
+    "url": "https://api.github.com/repos/pandas-dev/pandas/labels/Timedelta",
+    "name": "Timedelta",
+    "color": "5319e7",
+    "default": false,
+    "description": null
+  },
+  {
+    "id": 53181044,
+    "node_id": "MDU6TGFiZWw1MzE4MTA0NA==",
+    "url": "https://api.github.com/repos/pandas-dev/pandas/labels/Frequency",
+    "name": "Frequency",
+    "color": "0052cc",
+    "default": false,
+    "description": null
+  },
+  {
+    "id": 57186974,
+    "node_id": "MDU6TGFiZWw1NzE4Njk3NA==",
+    "url": "https://api.github.com/repos/pandas-dev/pandas/labels/Windows",
+    "name": "Windows",
+    "color": "fbca04",
+    "default": false,
+    "description": null
+  },
+  {
+    "id": 57296398,
+    "node_id": "MDU6TGFiZWw1NzI5NjM5OA==",
+    "url": "https://api.github.com/repos/pandas-dev/pandas/labels/Algos",
+    "name": "Algos",
+    "color": "eb6420",
+    "default": false,
+    "description": null
+  },
+  {
+    "id": 60458168,
+    "node_id": "MDU6TGFiZWw2MDQ1ODE2OA==",
+    "url": "https://api.github.com/repos/pandas-dev/pandas/labels/Timezones",
+    "name": "Timezones",
+    "color": "5319e7",
+    "default": false,
+    "description": null
+  },
+  {
+    "id": 60635328,
+    "node_id": "MDU6TGFiZWw2MDYzNTMyOA==",
+    "url": "https://api.github.com/repos/pandas-dev/pandas/labels/Period",
+    "name": "Period",
+    "color": "eb6420",
+    "default": false,
+    "description": null
+  },
+  {
+    "id": 71268330,
+    "node_id": "MDU6TGFiZWw3MTI2ODMzMA==",
+    "url": "https://api.github.com/repos/pandas-dev/pandas/labels/MultiIndex",
+    "name": "MultiIndex",
+    "color": "207de5",
+    "default": false,
+    "description": null
+  },
+  {
+    "id": 78527356,
+    "node_id": "MDU6TGFiZWw3ODUyNzM1Ng==",
+    "url": "https://api.github.com/repos/pandas-dev/pandas/labels/Categorical",
+    "name": "Categorical",
+    "color": "e11d21",
+    "default": false,
+    "description": null
+  }
+]
