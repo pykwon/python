@@ -1,4 +1,4 @@
-# hitmap에 텍스트 표시 추가사항 적용해 보기
+# heatmap에 텍스트 표시 추가사항 적용해 보기
 corr = data.corr()
 # Generate a mask for the upper triangle
 mask = np.zeros_like(corr, dtype=np.bool)  # 상관계수값 표시
