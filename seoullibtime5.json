@@ -1,0 +1,8 @@
+{"SeoulLibraryTime":{"list_total_count":1363,"RESULT":{"CODE":"INFO-000","MESSAGE":"정상 처리되었습니다"},
+"row":[
+{"LBRRY_NAME":"LH강남3단지작은도서관","CODE_VALUE":"강남구","ADRES":"서울특별시 강남구 자곡로3길 22","FDRM_CLOSE_DATE":"매주 화요일,목요일","TEL_NO":"02-459-8700","XCNTS":"37.46997231","YDNTS":"127.0910208"},
+{"LBRRY_NAME":"강남구립못골도서관","CODE_VALUE":"강남구","ADRES":"서울특별시 강남구 자곡로 116","FDRM_CLOSE_DATE":"매월 둘째, 넷째 화요일 및 일요일을 제외한 법정 공휴일","TEL_NO":"02-459-5522","XCNTS":"37.47153836","YDNTS":"127.096582"},
+{"LBRRY_NAME":"강남역삼푸른솔도서관","CODE_VALUE":"강남구","ADRES":"서울특별시 강남구 테헤란로8길 36. 4층","FDRM_CLOSE_DATE":"2,4 주 화요일 및 법정 공휴일","TEL_NO":"02-2051-1178","XCNTS":"37.4964968","YDNTS":"127.0320274"},
+{"LBRRY_NAME":"강남한신휴플러스8단지작은도서관","CODE_VALUE":"강남구","ADRES":"서울특별시 강남구 밤고개로27길 20(율현동, 강남한신휴플러스8단지)","FDRM_CLOSE_DATE":"토,일요일, 법정공휴일","TEL_NO":"02-445-9831","XCNTS":"37.46971323","YDNTS":"127.1130164"},
+{"LBRRY_NAME":"강남한양수자인작은씨앗도서관","CODE_VALUE":"강남구","ADRES":"서울특별시 강남구 자곡로 260","FDRM_CLOSE_DATE":"매주 일요일","TEL_NO":"","XCNTS":"37.47586067","YDNTS":"127.1134903"}
+]}}
