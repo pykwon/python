@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SeoulLibraryTime>
+	<list_total_count>1363</list_total_count>
+	<RESULT>
+		<CODE>INFO-230</CODE>
+		<MESSAGE>해당 서비스(OpenAPI)는 공개전 서비스 (OpenAPI)로 사용이 가능합니다</MESSAGE>
+	</RESULT>
+	<row>
+		<LBRRY_NAME>LH강남3단지작은도서관</LBRRY_NAME>
+		<CODE_VALUE>강남구</CODE_VALUE>
+		<ADRES>서울특별시 강남구 자곡로3길 22</ADRES>
+		<FDRM_CLOSE_DATE>매주 화요일,목요일</FDRM_CLOSE_DATE>
+		<TEL_NO>02-459-8700</TEL_NO>
+		<XCNTS>37.46997231</XCNTS>
+		<YDNTS>127.0910208</YDNTS>
+	</row>
+	<row>
+		<LBRRY_NAME>강남구립못골도서관</LBRRY_NAME>
+		<CODE_VALUE>강남구</CODE_VALUE>
+		<ADRES>서울특별시 강남구 자곡로 116</ADRES>
+		<FDRM_CLOSE_DATE>매월 둘째, 넷째 화요일 및 일요일을 제외한 법정 공휴일</FDRM_CLOSE_DATE>
+		<TEL_NO>02-459-5522</TEL_NO>
+		<XCNTS>37.47153836</XCNTS>
+		<YDNTS>127.096582</YDNTS>
+	</row>
+	<row>
+		<LBRRY_NAME>강남역삼푸른솔도서관</LBRRY_NAME>
+		<CODE_VALUE>강남구</CODE_VALUE>
+		<ADRES>서울특별시 강남구 테헤란로8길 36. 4층</ADRES>
+		<FDRM_CLOSE_DATE>2,4 주 화요일 및 법정 공휴일</FDRM_CLOSE_DATE>
+		<TEL_NO>02-2051-1178</TEL_NO>
+		<XCNTS>37.4964968</XCNTS>
+		<YDNTS>127.0320274</YDNTS>
+	</row>
+	<row>
+		<LBRRY_NAME>강남한신휴플러스8단지작은도서관</LBRRY_NAME>
+		<CODE_VALUE>강남구</CODE_VALUE>
+		<ADRES>서울특별시 강남구 밤고개로27길 20(율현동, 강남한신휴플러스8단지)</ADRES>
+		<FDRM_CLOSE_DATE>토,일요일, 법정공휴일</FDRM_CLOSE_DATE>
+		<TEL_NO>02-445-9831</TEL_NO>
+		<XCNTS>37.46971323</XCNTS>
+		<YDNTS>127.1130164</YDNTS>
+	</row>
+	<row>
+		<LBRRY_NAME>강남한양수자인작은씨앗도서관</LBRRY_NAME>
+		<CODE_VALUE>강남구</CODE_VALUE>
+		<ADRES>서울특별시 강남구 자곡로 260</ADRES>
+		<FDRM_CLOSE_DATE>매주 일요일</FDRM_CLOSE_DATE>
+		<TEL_NO></TEL_NO>
+		<XCNTS>37.47586067</XCNTS>
+		<YDNTS>127.1134903</YDNTS>
+	</row>
+</SeoulLibraryTime>
